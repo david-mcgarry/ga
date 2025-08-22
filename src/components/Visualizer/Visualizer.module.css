@@ -1,0 +1,85 @@
+.visualizerContainer {
+  display: flex;
+  gap: 30px;
+  flex-direction: row;
+  align-items: start;
+  padding: 30px;
+  padding-bottom: 0;
+}
+
+.visualizerForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.visualizerGrid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 1;
+}
+
+label {
+  display: block;
+  margin: 10px;
+  text-align: left;
+}
+
+.arrayInput {
+  display: block;
+  margin: 10px;
+}
+
+.distanceInput {
+  display: block;
+  margin: 10px;
+}
+
+.submitButton {
+  display: block;
+  margin: 10px;
+}
+
+.arrayButtonsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+.arrayButtonsContainer button {
+  margin: 5px 0;
+  cursor: pointer;
+}
+
+.cacheToggleHeader {
+  margin-top: 40px;
+  font-weight: bold;
+}
+
+.cacheToggle {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.arrayDataHeader {
+  margin: 20px 0 10px 50px;
+  font-weight: bold;
+}
+
+.arrayData {
+  margin: 50px;
+  margin-top: 0;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 13px;
+  font-family: monospace;
+  word-break: break-word;
+}

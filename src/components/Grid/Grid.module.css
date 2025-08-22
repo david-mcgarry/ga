@@ -1,0 +1,51 @@
+.grid {
+  width: 100%;
+  display: grid;
+  gap: 1px;
+  background-color: #ccc;
+  padding: 1px;
+}
+
+.gridCell {
+  display: inline-block;
+  background-color: #fff;
+  box-sizing: border-box;
+  aspect-ratio: 1 / 1;
+  background-color: white;
+}
+
+/* .gridCell:hover {
+  background-color: #f0f0f0;
+} */
+
+.level0 {
+  background-color: white;
+  /* transition: background-color 0.5s ease-in-out; */
+}
+
+.level1 {
+  background-color: rgb(92, 214, 255);
+}
+
+.level2 {
+  background-color: lightgreen;
+  /* transition: background-color 0.5s ease-in-out; */
+}
+
+.gridLegend {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0;
+}
+
+.gridInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.neighborhoodSize {
+  background: lightgreen;
+  padding: 5px;
+  border-radius: 5px;
+}

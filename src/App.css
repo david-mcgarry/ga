@@ -1,0 +1,12 @@
+.appHeader {
+  text-align: left;
+  padding-left: 60px;
+}
+
+.prototypeText {
+  color: #666;
+  font-style: italic;
+  font-size: 0.6em;
+  margin-top: -10px;
+  margin-bottom: 20px;
+}
